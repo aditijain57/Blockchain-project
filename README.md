@@ -6,7 +6,7 @@ A crowdfunding platform is needed to be designed for a scenario where there are 
 
 
 Access Control Contract
-This contract is part of another project called Medchain : A Design of Blockchain-Based System for Medical Records Access and Permissions Management {Digital Object Identifier 10.1109/ACCESS.2019.2952942} - access system for a blockchain network consisting various health providers who simultaneously treat the same individuals and constantly need complete patient data. Hence using blockchain in a way to fastly and corretly share EMRs keeping the privacy of the patients safe.  
+This contract is part of another project called Medchain : A Design of Blockchain-Based System for Electronic Medical Records(EMRs) Access and Permissions Management {Digital Object Identifier 10.1109/ACCESS.2019.2952942} - access system for a blockchain network consisting various health providers who simultaneously treat the same individuals and constantly need complete patient data. Hence using blockchain in a way to efficiently share EMRs keeping the privacy of the patients safe.  
 It comprises of the permissions available for accessing the sensitive information of the patients and which groups should be given what kind of access.
 For example, patients can only read their own record’s content, they must not have the right to view someone else’s records nor must they be able to change any information on their own. Similarly, third party access must be a blind read of the EMR to preserve patients’ right to privacy.
 These permissions are given to the access groups and based on these permissions their content encryption level is decided.
