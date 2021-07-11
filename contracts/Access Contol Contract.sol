@@ -38,7 +38,6 @@ contract Access_Control_Contract
     
     constructor() public {
     _owner = msg.sender;
-	Nes memory MsPat = Nes("ms.pat",77, 1, true, false, 0x583031D1113aD414F02576BD6afaBfb302140225);
     }
     
     modifier onlyOwner() {
